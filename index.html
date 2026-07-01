@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="StyleSheet" href="">
+</head>
+<style>
+#menu{
+position: absolute;
+top: 6%;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+gap: 20px;
+border: 2px solid red;
+z-index: 2;
+}
+.estilomenu{
+    background-color: white;
+    position: relative;
+    float: left;
+    border: 2px solid white;
+    font-family: Arial;
+    font-size: 25px;
+}
+.estilomenu:hover{
+    color: red;
+}
+#conteudo{
+    background-color: rgb(254, 255, 255);
+    position: relative;
+    border: 2px solid rgb(196, 173, 173);
+    width: 94%;
+    height: 92%;
+    z-index:1;
+    margin: 0 auto;
+}
+a{
+text-decoration: none; 
+color: inherit;     
+}
+#rodape{
+    background-color:black;
+    position: relative;
+    border: 2px solid rgb(196, 173, 173);
+    width: 94%;
+    height: 6%;
+    z-index:1;
+    margin: 0 auto;
+    color:white;
+    text-align:center;
+}
+</style>
+<body bgcolor="gray">
+<div id="menu">
+    <div id="sobre" class="estiloMenu"><a href="index.html">Sobre a escola</a></div>
+    <div id="lab" class="estiloMenu"><a href="lab.html">Laboratórios</a></div>
+    <div id="destaques" class="estiloMenu"><a href="destaques.html">Destaques</a></div>
+    <div id="contato" class="estiloMenu"><a href="contato.html">Contato</a></div>
+</div>
+<div id="conteudo">Conteudo da Index</div>
+<div id="rodape">© 2026 Escola Quitiba. Todos os direitos reservados.</div>
+</body>
+</html>
