@@ -28,16 +28,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <title>Login</title>
     </head>
     <body id="form">
-        <h2>Login do Sistema</h2>
-        <form method="POST">
-            <label>Usuário:</label>
-            <input type="text" name="usuario" required>
-            <br><br>
-            <label>Senha:</label>
-            <input type="password" name="senha" required>
-            <br><br>
-            <button type="submit">Entrar</button>
-        </form>
-        <p><?= htmlspecialchars($msg)?></p>
+        <div id="fundo">
+            <div id="cabeca">
+                <div id="olho1"></div>
+                <div id="olho2"></div>
+            </div>
+            
+        </div>
+            <h2>Login do Sistema</h2>
+            <form method="POST">
+                <label>Usuário:</label><br>
+                <input type="text" name="usuario" required>
+                <br><br>
+                <label>Senha:</label><br>
+                <input type="password" name="senha" required>
+                <br><br>
+                <button type="submit">Entrar</button>
+            </form>
+            <p><?= htmlspecialchars($msg)?></p>
     </body>
 </html>
