@@ -22,15 +22,19 @@
 /* ==== FUNDO FORMULARIO ==== */    
 
 #form #fundo #cabeca {
-    top:100px;
+    top: 0;
     position: absolute;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-content: center;
     left: 25%;
     width: 960px;
     height: 960px;
     z-index: 1;
     background-color: black;
+    grid-template-areas:
+        "olho1 olho2"
+        "boca boca";
+    border-radius: 50%;
 }
 
 #form #fundo #cabeca #olho1 {
@@ -38,6 +42,8 @@
     width: 100px;
     height: 100px;
     border-radius: 0 100% 0 100%;
+    margin: 30% 0 0 0;
+    grid-area: "olho1";
 }
 
 #form #fundo #cabeca #olho2 {
@@ -45,6 +51,16 @@
     width: 100px;
     height: 100px;
     border-radius: 100% 0 100% 0;
+    margin: 30% 0 0 0;
+    grid-area: "olho2";
+}
+#form #fundo #cabeca #boca{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    margin: 0 0 20% 0;
+    border-radius: 0 0 250px 250px;
+    grid-area: "boca";
 }
 
 /* ========= PÁGINA ========= */
