@@ -32,10 +32,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div id="cabeca">
                 <div id="olho1"></div>
                 <div id="olho2"></div>
+                <div id="boca"><div id="boca-central"></div></div>
             </div>
             
         </div>
-            <h2>Login do Sistema</h2>
+            <h2>Digite seu nome e senha, desconhecido</h2>
             <form method="POST">
                 <label>Usuário:</label><br>
                 <input type="text" name="usuario" required>
