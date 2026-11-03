@@ -24,16 +24,16 @@
 #form #fundo #cabeca {
     top: 0;
     position: absolute;
-    display: grid;
+    display: flex;
     justify-content: center;
     left: 25%;
     width: 960px;
     height: 960px;
-    z-index: 1;
-    background-color: black;
+    z-index: -1;
+    background-color: black;/*
     grid-template-areas:
         "olho1 olho2"
-        "boca boca";
+        "boca boca";*/
     border-radius: 50%;
 }
 
@@ -42,8 +42,9 @@
     width: 100px;
     height: 100px;
     border-radius: 0 100% 0 100%;
-    margin: 30% 0 0 0;
+    margin: 35% 40% 0 0;
     grid-area: "olho1";
+    padding: 2%;
 }
 
 #form #fundo #cabeca #olho2 {
@@ -51,8 +52,9 @@
     width: 100px;
     height: 100px;
     border-radius: 100% 0 100% 0;
-    margin: 30% 0 0 0;
+    margin: 35% 0.5% 0 0;
     grid-area: "olho2";
+    padding: 2%;
 }
 #form #fundo #cabeca #boca{
     width: 600px;
@@ -64,3 +66,7 @@
 }
 
 /* ========= PÁGINA ========= */
+
+#pag #perfil {
+    
+}
