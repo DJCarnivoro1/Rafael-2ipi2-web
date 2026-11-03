@@ -15,7 +15,9 @@ if (!isset($_SESSION["usuario"])) {
         <meta chraset="UTF-8">
         <title>Página Protegida</title>
     </head>
-    <body>
+    <body id="pag">
+        <div id="perfil"></div>
+
         <h1>Bem-vindo!</h1>
 
         <p>
