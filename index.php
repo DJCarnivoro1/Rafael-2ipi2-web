@@ -32,10 +32,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div id="cabeca">
                 <div id="olho1"></div>
                 <div id="olho2"></div>
-                <div id="boca"><div id="boca-central"></div></div>
             </div>
             
         </div>
+        <div id="dform">
             <h2>Digite seu nome e senha, desconhecido</h2>
             <form method="POST">
                 <label>Usuário:</label><br>
@@ -47,5 +47,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <button type="submit">Entrar</button>
             </form>
             <p><?= htmlspecialchars($msg)?></p>
+        </div>
     </body>
 </html>
