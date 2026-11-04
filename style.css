@@ -1,28 +1,32 @@
 /* ======= FORMULARIO ======= */
 #form {
-    background-image: radial-gradient(circle, white, black, black);
+    background-color: black;
     color: white;
     text-align: center;
     justify-content: center;
     margin: 10%;
 }
 
-#form form {
-    margin:auto;
+#form #dform {
+    margin: 20% 0 0 0;
+}
+
+#form #dform form {
+    background-color: white;
+    color: black;
     border: solid 2px;
     border-radius: 10px;
     width: 250px;
     text-align: center;
     padding: 50px;
     font-size: 20px;
-    background-color: white;
-    color: black;
+    margin:auto;
 }
 
 /* ==== FUNDO FORMULARIO ==== */    
 
 #form #fundo #cabeca {
-    top: 0;
+    top: -200px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -56,17 +60,27 @@
     grid-area: "olho2";
     padding: 2%;
 }
-#form #fundo #cabeca #boca{
-    width: 600px;
-    height: 250px;
-    background-color: white;
-    margin: 0 0 20% 0;
-    border-radius: 0 0 250px 250px;
-    grid-area: "boca";
-}
 
 /* ========= PÁGINA ========= */
 
 #pag #perfil {
-    
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: aqua;
+    right: -14%;
+    top: 10px;
+}
+
+#pag #perfil:hover {
+    right: 0;
+}
+
+#pag #perfil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid;
+    margin: 25px;
 }
