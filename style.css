@@ -64,10 +64,11 @@
 /* ========= PÁGINA ========= */
 
 #pag {
-    background-image: url("Guardião do Gelo Eterno.png");
+    background-image: url("isite.png");
     background-repeat: no-repeat;
     background-position: 0 -500px;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -89,12 +90,13 @@
     height: 250px;
     border-radius: 50%;
     background-color: white;
-    border: solid;
+    border: solid 2px black;
     margin: 25px;
 }
 
 #pag #perfil #nome {
     text-align: center;
+    color: black;
 }
 
 #pag #bv {
