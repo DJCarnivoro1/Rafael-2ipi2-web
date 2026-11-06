@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'AndyBold';
+    src: url('ANDYB.ttf') format('truetype');
+}
+
+
 /* ======= FORMULARIO ======= */
 #form {
     background-image: url("https://external-preview.redd.it/terraria-wallpapers-1920-x-1080-v0-rvb6Vu0_4ri4cJ_wwWQxtbvAZNNNdVsRD_3b2dNw1qo.jpeg?auto=webp&s=c0c1bf79373b7bfcfb549c362e0d1145e2636250");
@@ -5,6 +11,7 @@
     text-align: center;
     justify-content: center;
     margin: 10%;
+    font-family: 'AndyBold';
 }
 
 #form #dform {
@@ -62,11 +69,6 @@
 }
 
 /* ========= PÁGINA ========= */
-
-@font-face {
-    font-family: 'AndyBold';
-    src: url('ANDYB.ttf') format('truetype');
-}
 
 #pag {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFhfz4_9TnyPFlkpk9CrNmenC0eW1dOUnOl29b7WeeA&s=10");
@@ -132,7 +134,7 @@
 
 #pag p {
     font-size: 20px;
-    -webkit-text-stroke: 0.8px #000;
+    -webkit-text-stroke: 0.5px #000;
 }
 
 #pag #apr {
@@ -172,7 +174,7 @@
 }
 
 #fundo1, #fundo2 {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     z-index: 4;
@@ -193,6 +195,23 @@
     background-color: rgba(152, 62, 236, 0.4);
 }
 
+#inventory {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.item {
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+
+#inventory img {
+    height: 50px;
+}
+
 /* imagens
 
 s1
@@ -207,7 +226,3 @@ https://infernummod.wiki.gg/images/AresFullSwordOn.gif?709c2c - ares
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MraTLRGS-v4dMLgttGyjgIevcWtFZDIzxzC9EWtyHg&s=10 - apolo
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKwk9A_mbHd5_eCZeqBRSbUnvzyiVKdQ_ZmXgt2HI_A&s=10 - artemis
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgi2J_gbkztRGbOTKoEQIIivEL6als-fpHRk7CEzDO&s - thanatos
-
-invocadores
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6yq7cG_qy4JmD_wOdYA4jlvC044Y3JdyC49j0QjmbA&s=10
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3dgnpmu6pDPxvjJR5pVIY1SiK479tJZSIUgx7lrcPA&s
