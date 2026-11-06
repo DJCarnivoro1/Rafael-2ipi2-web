@@ -23,7 +23,7 @@ if (!isset($_SESSION["usuario"])) {
         <title>Página Protegida</title>
     </head>
     <body id="pag">
-        <div class="devo" id="fundo1"></div>
+        <div id="fundo1"></div>
         <div id="fundo2"></div>
         <!--
         <div id="perfil">
@@ -70,22 +70,14 @@ if (!isset($_SESSION["usuario"])) {
                 <p>Em meio ao conflito, cidades e civilizações inteiras foram dizimadas (como a incineração de Ilmeris e a destruição de Azafure pela Elemental do Enxofre).</p>
                 <p>Com o tempo, as táticas cruéis de Yharim — incluindo o Projeto Praga e experimentos desumanos de Draedon — fizeram com que aliados se dividissem e desertassem.</p>
             </div>
+
+            
         </section>
-
-        <script type="text/javascript" src="https://jsdelivr.net"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.meu-carrossel').slick({
-                autoplay: true,        // Rotação automática
-                autoplaySpeed: 3000,   // Tempo em milissegundos
-                dots: true,            // Mostra bolinhas de navegação
-                arrows: true,          // Mostra setas de avançar/voltar
-                slidesToShow: 1,       // Quantos slides aparecem por vez
-                slidesToScroll: 1      // Quantos slides passam por vez
-                });
-            });
-        </script>
+        <div id="inventory">
+            <div class="item"><img src="https://calamitymod.wiki.gg/images/Profaned_Core.png?54a1f8"></div>
+            <div class="item"><img src="https://calamitymod.wiki.gg/images/Cosmic_Worm.png?870b5e"></div>
+            <div></div>
+        </div>
 
     </body>
 </htmL>
