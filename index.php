@@ -28,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <title>Login</title>
     </head>
     <body id="form">
+        <!--
         <div id="fundo">
             <div id="cabeca">
                 <div id="olho1"></div>
@@ -35,6 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             
         </div>
+-->
         <div id="dform">
             <h2>Digite seu nome e senha, desconhecido</h2>
             <form method="POST">
