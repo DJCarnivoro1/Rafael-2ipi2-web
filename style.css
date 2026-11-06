@@ -1,6 +1,6 @@
 /* ======= FORMULARIO ======= */
 #form {
-    background-color: black;
+    background-image: url("https://external-preview.redd.it/terraria-wallpapers-1920-x-1080-v0-rvb6Vu0_4ri4cJ_wwWQxtbvAZNNNdVsRD_3b2dNw1qo.jpeg?auto=webp&s=c0c1bf79373b7bfcfb549c362e0d1145e2636250");
     color: white;
     text-align: center;
     justify-content: center;
@@ -63,13 +63,24 @@
 
 /* ========= PÁGINA ========= */
 
+@font-face {
+    font-family: 'AndyBold';
+    src: url('ANDYB.ttf') format('truetype');
+}
+
 #pag {
-    background-image: url("isite.png");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFhfz4_9TnyPFlkpk9CrNmenC0eW1dOUnOl29b7WeeA&s=10");
+    /* https://i.redd.it/noeb2anlkk4h1.png
+    https://i.redd.it/mfbw15zgkk4h1.png
+    https://i.redd.it/ivjjhfrpk5051.png*/
+
+    
     background-repeat: no-repeat;
-    background-position: 0 -500px;
     background-size: cover;
+    
     background-attachment: fixed;
     color: white;
+    font-family: 'AndyBold';
 }
 
 #pag #perfil {
@@ -101,6 +112,102 @@
 
 #pag #bv {
     top: 500;
+    font-size: 75px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+}
+
+#pag #titulo {
     font-size: 50px;
+    -webkit-text-stroke: 1px #000;
+    margin: 20px;
     text-align: center;
 }
+
+#pag h2 {
+    font-size: 35px;
+    -webkit-text-stroke: 0.8px #000;
+    text-align: center;
+}
+
+#pag p {
+    font-size: 20px;
+    -webkit-text-stroke: 0.8px #000;
+}
+
+#pag #apr {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(10, 182, 4) 7px;
+    background-color:rgb(136, 63, 12);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag #s1 div {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(17, 166, 177) 7px;
+    background-color:rgb(136, 63, 12);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag #s2 div {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(89, 184, 12) 7px;
+    background-color:rgb(56, 33, 17);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag #s3 div {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(124, 38, 204) 7px;
+    background-color:rgb(87, 40, 6);
+    border-radius: 0 0 5% 5%;
+}
+
+#fundo1, #fundo2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
+
+#fundo2{
+    z-index: -1;
+    background-color: rgba(2, 2, 66, 0.4);
+}
+
+.prov {
+    background-color: rgba(182, 149, 4, 0.4);
+}
+
+.devo {
+    background-color: rgba(152, 62, 236, 0.4);
+}
+
+/* imagens
+
+s1
+https://calamitymod.wiki.gg/images/thumb/Providence%2C_the_Profaned_Goddess.png/450px-Providence%2C_the_Profaned_Goddess.png?f6e9d5
+
+s2
+https://static.wikia.nocookie.net/calamity-paint-retold/images/b/ba/Dog_neo2.png/revision/latest?cb=20190915221618
+
+s3
+
+https://infernummod.wiki.gg/images/AresFullSwordOn.gif?709c2c - ares
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MraTLRGS-v4dMLgttGyjgIevcWtFZDIzxzC9EWtyHg&s=10 - apolo
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKwk9A_mbHd5_eCZeqBRSbUnvzyiVKdQ_ZmXgt2HI_A&s=10 - artemis
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgi2J_gbkztRGbOTKoEQIIivEL6als-fpHRk7CEzDO&s - thanatos
+
+invocadores
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6yq7cG_qy4JmD_wOdYA4jlvC044Y3JdyC49j0QjmbA&s=10
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3dgnpmu6pDPxvjJR5pVIY1SiK479tJZSIUgx7lrcPA&s
