@@ -9,22 +9,22 @@ const back1 = document.getElementById("fundo2");
 
 function prov(musica) {
     back.classList.remove("devo","echo1");
-    back.classList.add("prov");
+    back.classList.toggle("prov");
     back1.classList.remove("echo2");
     tocar(musica);
 }
 
 function devo(musica) {
     back.classList.remove("prov","echo1");
-    back.classList.add("devo");
+    back.classList.toggle("devo");
     back1.classList.remove("echo2");
     tocar(musica);
 }
 
 function echo(musica) {
     back.classList.remove("prov","devo");
-    back.classList.add("echo1");
-    back1.classList.add("echo2");
+    back.classList.toggle("echo1");
+    back1.classList.toggle("echo2");
     tocar(musica);
 }
 
