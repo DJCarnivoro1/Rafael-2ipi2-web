@@ -24,27 +24,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <htmL>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animations.css">
         <meta chartset="UTF-8">
         <title>Login</title>
     </head>
-    <body id="form">
-        <!--
-        <div id="fundo">
-            <div id="cabeca">
-                <div id="olho1"></div>
-                <div id="olho2"></div>
-            </div>
-            
-        </div>
--->
+    <body id="form"></body>
+        <div id="fundo"></div>
         <div id="dform">
-            <h2>Digite seu nome e senha, desconhecido</h2>
+            <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png/revision/latest?cb=20200506135559">
+            <h2>Criação de personagem</h2>
             <form method="POST">
-                <label>Usuário:</label><br>
-                <input type="text" name="usuario" required>
+                <div>
+                    <label>Usuário:</label><br>
+                    <input type="text" name="usuario" required>
+                </div>
                 <br><br>
-                <label>Senha:</label><br>
-                <input type="password" name="senha" required>
+                <div>
+                    <label>Senha:</label><br>
+                    <input type="password" name="senha" required>
+                </div>
                 <br><br>
                 <button type="submit">Entrar</button>
             </form>
