@@ -232,5 +232,10 @@
 
 #echo, #devo, #prov {
     opacity: 1;
-    
+    position: fixed;
+    top: -1200px;
+}
+
+#devo {
+    animation: devo 2s;
 }
