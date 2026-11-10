@@ -77,6 +77,7 @@ function echo(musica) {
 
 function tocar(musica) {
     audio.muted = !audio.muted;
+    
     if (audio.paused) {
         audio.setAttribute("src", musica);
         audio.play();
