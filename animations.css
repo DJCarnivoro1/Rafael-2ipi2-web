@@ -1,172 +1,260 @@
-@keyframes inicio {
-    0% {
-        opacity: 1;
-        z-index: 2;
-    }
-    20%{
-        opacity: 1;
-        z-index: 2;
-    }
-    100% {
-        opacity: 0;
-        z-index: -1;
-    }
+@font-face {
+    font-family: 'AndyBold';
+    src: url('ANDYB.ttf') format('truetype');
 }
 
-@keyframes devo {
-    0%{
-        top: 75%;
-        left: 100%;
-        rotate: 0deg;
-    }
-    25%{
-        top: 75%;
-        left: -200%;
-        rotate: 0deg;
-    }
-    40%{
-        top: 20%;
-        left: -200%;
-        rotate: 180deg;
-    }
-    50%{
-        top: 20%;
-        left: -200%;
-        rotate: 180deg;
-    }
-    75%{
-        top: 20%;
-        left: 130%;
-        rotate: 180deg;
-    }
-    100%{
-        top: -100%;
-        left: 130%;
-        rotate: 180deg;
-    }
+
+/* ======= FORMULARIO ======= */
+#form {
+    background-image: url("https://external-preview.redd.it/terraria-wallpapers-1920-x-1080-v0-rvb6Vu0_4ri4cJ_wwWQxtbvAZNNNdVsRD_3b2dNw1qo.jpeg?auto=webp&s=c0c1bf79373b7bfcfb549c362e0d1145e2636250");
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 10%;
+    font-family: 'AndyBold';
 }
 
-@keyframes prov1 {
-    0%{
-        top: -1500px;
-        left: 25%;
-    }
-    10%{
-        top: -20%;
-        left: 25%;
-    }
-    90%{
-        top: -20%;
-        left: 25%;
-    }
-    100%{
-        top: -15%;
-        left: 60%;
-    }
+#form #dform {
+    margin: -10% 0 0 0;
 }
 
-@keyframes prov2 {
-    0%{
-        top:-15%;
-        left:60%;
-    }
-    12.5%{
-        top:-20%;
-        left:35%;
-    }
-    25%{
-        top:-15%;
-        left:-10%;
-    }
-    37.5%{
-        top: -20%;
-        left: 10%;
-    }
-    50%{
-        top:-15%;
-        left:30%;
-    }
-    62.5%{
-        top: -20%;
-        left: 25%;
-    }
-    75%{
-        top:-15%;
-        left:20%;
-    }
-    87.5%{
-        top: -20%;
-        left: 40%;
-    }
-    100%{
-        top:-15%;
-        left:60%;
-    }
+#form #dform h2 {
+    font-size: 35px;
+    -webkit-text-stroke: 0.8px #000;
 }
 
-@keyframes ares {
-    0%{
-        top: -15%;
-        left: -5%;
-    }
-    100%{
-        top: -15%;
-        left: -5%;
-    }
+#form #dform form {
+    width: 250px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    margin:auto;
+    -webkit-text-stroke: 0.5px #000;
 }
 
-@keyframes thana {
-    0%{
-        top: 120%;
-        left: 100%;
-        rotate: 20deg;
-        z-index: 2;
-        width: 1500px;
-    }
-    35%{
-        top: -60%;
-        left: -150%;
-        rotate: 20deg;
-        z-index: 2;
-        width: 1500px;
-    }
-    40%{
-        top: 130%;
-        left: -150%;
-        rotate: 160deg;
-        z-index: -1;
-        width: 800px;
-    }
-    95%{
-        top: -60%;
-        left: 100%;
-        rotate: 160deg;
-        z-index: -1;
-        width: 800px;
-    }
-    100%{
-        top: 120%;
-        left: 100%;
-        rotate: 20deg;
-        z-index: 2;
-        width: 1500px;
-    }
+#form #dform form input {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 0;
+    border-bottom: solid white 2px;
+    color: white;
+    -webkit-text-stroke: 0.5px #000;
+    font-size: 20px;
+    font-family: 'AndyBold';
 }
 
-@keyframes art {
-    0%{
-        left: -5%;
-    }
-    100%{
-        left: -5%;
-    }
+#form #dform form button {
+    font-family: 'AndyBold';
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: solid 0;
+    font-size: 20px;
 }
 
-@keyframes apo {
-    0%{
-        left: 85%;
-    }
-    100%{
-        left: 85%;
-    }
+#form #dform form div:hover, #form #dform form button:hover {
+    font-size: 25px;
+    color: yellow;
+}
+
+#form #fundo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    animation: inicio 5s;
+    opacity: 0;
+}
+
+/* ========= PÁGINA ========= */
+
+#pag {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFhfz4_9TnyPFlkpk9CrNmenC0eW1dOUnOl29b7WeeA&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'AndyBold';
+    animation: mudarback2 2s;
+}
+
+#pag #perfil {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: aqua;
+    right: -14%;
+    top: 10px;
+}
+
+#pag #perfil:hover {
+    right: 0;
+}
+
+#pag #perfil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 2px black;
+    margin: 25px;
+}
+
+#pag #perfil #nome {
+    text-align: center;
+    color: black;
+}
+
+#pag #bv {
+    top: 500;
+    font-size: 75px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+}
+
+#pag #titulo {
+    font-size: 50px;
+    -webkit-text-stroke: 1px #000;
+    margin: 20px;
+    text-align: center;
+}
+
+#pag h2 {
+    font-size: 35px;
+    -webkit-text-stroke: 0.8px #000;
+    text-align: center;
+}
+
+#pag p {
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px #000;
+}
+
+#pag #apr {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(10, 182, 4) 7px;
+    background-color:rgb(136, 63, 12);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag #s1 div {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(17, 166, 177) 7px;
+    background-color:rgb(136, 63, 12);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag #s2 div {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(89, 184, 12) 7px;
+    background-color:rgb(56, 33, 17);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag #s3 div {
+    width: 70%;
+    margin: 100px auto;
+    padding: 30px;
+    border-top: solid rgb(124, 38, 204) 7px;
+    background-color:rgb(87, 40, 6);
+    border-radius: 0 0 5% 5%;
+}
+
+#pag audio {
+    opacity: 0;
+}
+
+#fundo1, #fundo2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+
+#fundo2{
+    z-index: -1;
+    background-color: rgba(2, 2, 66, 0.4);
+}
+
+.prov {
+    background-color: rgba(182, 149, 4, 0.4);
+    z-index: 4;
+}
+
+.devo {
+    background-color: rgba(152, 62, 236, 0.4);
+    z-index: 4;
+}
+
+.echo1 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.5));
+}
+
+.echo2 {
+    background-image: linear-gradient(to left, rgba(0, 255, 34, 0.3), rgba(0, 255, 55, 0.2), rgba(255, 196, 0, 0.3), rgba(255, 187, 0, 0.3));
+}
+
+#inventory {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.item {
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(0, 71, 224, 0.5);
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+#inventory img {
+    height: 50px;
+}
+
+#inventory button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+#devo, #prov, #ares, #apollo, #artemis, #thanatos{
+    opacity: 1;
+    position: fixed;
+    top: -1500px;
+}
+
+.devoanim {
+    animation: devo 2s linear infinite 5s;
+}
+
+.provanim {
+    animation: prov1 11.3s, prov2 5s linear infinite 11.3s;
+}
+
+.ares {
+    animation: ares 2s infinite;
+}
+
+.thana {
+    animation: thana 2s infinite;
+}
+.apollo {
+    animation: apo 2s infinite;
+}
+
+.artemis{
+    animation: art 2s infinite;
 }
