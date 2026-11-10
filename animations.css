@@ -49,30 +49,30 @@
 @keyframes prov1 {
     0%{
         top: -1500px;
-        left: 25%;
+        left: 30%;
     }
     10%{
-        top: -20%;
-        left: 25%;
+        top: -10%;
+        left: 30%;
     }
     90%{
-        top: -20%;
-        left: 25%;
+        top: -10%;
+        left: 30%;
     }
     100%{
         top: -15%;
-        left: 60%;
+        left: 80%;
     }
 }
 
 @keyframes prov2 {
     0%{
         top:-15%;
-        left:60%;
+        left:70%;
     }
     12.5%{
         top:-20%;
-        left:35%;
+        left:40%;
     }
     25%{
         top:-15%;
@@ -80,11 +80,11 @@
     }
     37.5%{
         top: -20%;
-        left: 10%;
+        left: 40%;
     }
     50%{
         top:-15%;
-        left:30%;
+        left:70%;
     }
     62.5%{
         top: -20%;
@@ -96,11 +96,11 @@
     }
     87.5%{
         top: -20%;
-        left: 40%;
+        left: 25%;
     }
     100%{
         top:-15%;
-        left:60%;
+        left:70%;
     }
 }
 
@@ -119,26 +119,26 @@
     0%{
         top: 120%;
         left: 100%;
-        rotate: 20deg;
+        rotate: 25deg;
         z-index: 2;
         width: 1500px;
     }
     35%{
-        top: -60%;
+        top: -120%;
         left: -150%;
-        rotate: 20deg;
+        rotate: 25deg;
         z-index: 2;
         width: 1500px;
     }
     40%{
-        top: 130%;
+        top: 150%;
         left: -150%;
         rotate: 160deg;
         z-index: -1;
         width: 800px;
     }
     95%{
-        top: -60%;
+        top: -30%;
         left: 100%;
         rotate: 160deg;
         z-index: -1;
@@ -155,18 +155,18 @@
 
 @keyframes art {
     0%{
-        left: -5%;
+        left: 0%;
     }
     100%{
-        left: -5%;
+        left: 0%;
     }
 }
 
 @keyframes apo {
     0%{
-        left: 85%;
+        left: 86%;
     }
     100%{
-        left: 85%;
+        left: 86%;
     }
 }
