@@ -230,12 +230,31 @@
     border: 0;
 }
 
-#echo, #devo, #prov {
+#devo, #prov, #ares, #apollo, #artemis, #thanatos{
     opacity: 1;
     position: fixed;
-    top: -1200px;
+    top: -1500px;
 }
 
 .devoanim {
-    animation: devo 2s linear infinite;
+    animation: devo 2s linear infinite 5s;
+}
+
+.provanim {
+    animation: prov1 11.3s, prov2 5s linear infinite 11.3s;
+}
+
+.ares {
+    animation: ares 2s infinite;
+}
+
+.thana {
+    animation: thana 2s infinite;
+}
+.apollo {
+    animation: apo 2s infinite;
+}
+
+.artemis{
+    animation: art 2s infinite;
 }
