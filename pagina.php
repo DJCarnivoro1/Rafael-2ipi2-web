@@ -72,9 +72,9 @@ if (!isset($_SESSION["usuario"])) {
             
         </section>
         <div id="inventory">
-            <div class="item"><button onclick="prov()"><img src="https://calamitymod.wiki.gg/images/Profaned_Core.png?54a1f8"></button></div>
+            <div class="item"><button onclick="prov('musicas/prov.mp3')"><img src="https://calamitymod.wiki.gg/images/Profaned_Core.png?54a1f8"></button></div>
             <div class="item"><button onclick="devo('musicas/UNIVERSAL COLLAPSE _ .mp3')"><img src="https://calamitymod.wiki.gg/images/Cosmic_Worm.png?870b5e"></button></div>
-            <div class="item"><button onclick="echo()"><img src="https://terraria.wiki.gg/images/Ocram%27s_Razor.png?c7c23c"></button></div>
+            <div class="item"><button onclick="echo('musicas/exo mechs.mp3')"><img src="https://terraria.wiki.gg/images/Ocram%27s_Razor.png?c7c23c"></button></div>
         </div>
     <audio id="minhaMusica" controls muted></audio>
         <script src="script.js">
