@@ -107,11 +107,11 @@
 @keyframes ares {
     0%{
         top: -15%;
-        left: -5%;
+        left: 5%;
     }
     100%{
         top: -15%;
-        left: -5%;
+        left: 5%;
     }
 }
 
