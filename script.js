@@ -14,6 +14,7 @@ function prov(musica) {
     back.classList.toggle("prov");
     back1.classList.remove("echo2");
     provi.classList.toggle("provanim");
+    devor.classList.remove("devoanim");
     document.getElementById("ares").classList.remove("ares");
     document.getElementById("thanatos").classList.remove("thana");
     document.getElementById("artemis").classList.remove("artemis");
@@ -35,6 +36,7 @@ function devo(musica) {
     back.classList.remove("prov","echo1");
     back.classList.toggle("devo");
     back1.classList.remove("echo2");
+    provi.classList.remove("provanim");
     document.getElementById("ares").classList.remove("ares");
     document.getElementById("thanatos").classList.remove("thana");
     document.getElementById("artemis").classList.remove("artemis");
@@ -46,8 +48,10 @@ function devo(musica) {
 
 function echo(musica) {
     back.classList.remove("prov","devo");
+    devor.classList.remove("devoanim");
     back.classList.toggle("echo1");
     back1.classList.toggle("echo2");
+    provi.classList.remove("provanim");
     tocar(musica);
     document.getElementById("ares").classList.toggle("ares");
     document.getElementById("thanatos").classList.toggle("thana");
