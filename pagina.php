@@ -19,7 +19,7 @@ if (!isset($_SESSION["usuario"])) {
     <body id="pag">
         <div id="fundo1"></div>
         <div id="fundo2"></div>
-        <div><img src="https://preview.redd.it/the-ultimate-war-machine-xf-09-ares-infernum-version-made-v0-ldcmq35z3ddc1.gif?width=640&crop=smart&auto=webp&s=b31b065af5b718a53399d929a0c33d633c32a24c" id="ares" height="700"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MraTLRGS-v4dMLgttGyjgIevcWtFZDIzxzC9EWtyHg&s=10" id="artemis" width="270" style="rotate: 90deg;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKwk9A_mbHd5_eCZeqBRSbUnvzyiVKdQ_ZmXgt2HI_A&s=10" id="apollo" width="270" style="rotate: 270deg;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgi2J_gbkztRGbOTKoEQIIivEL6als-fpHRk7CEzDO&s" id="thanatos" width="1500"></div>
+        <div><img src="https://infernummod.wiki.gg/images/AresFullSwordOn.gif?709c2c" id="ares" height="700"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MraTLRGS-v4dMLgttGyjgIevcWtFZDIzxzC9EWtyHg&s=10" id="artemis" width="270" style="rotate: 90deg;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKwk9A_mbHd5_eCZeqBRSbUnvzyiVKdQ_ZmXgt2HI_A&s=10" id="apollo" width="270" style="rotate: 270deg;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgi2J_gbkztRGbOTKoEQIIivEL6als-fpHRk7CEzDO&s" id="thanatos" width="1500"></div>
         <div id="devo"><img src="https://static.wikia.nocookie.net/calamity-paint-retold/images/b/ba/Dog_neo2.png/revision/latest?cb=20190915221618"></div>
         <div id="prov"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1lpwIGXeiLYMiu8Wm2hengwMNULPH4j72V1DeasiK4Q&s=10" height="650" id="imgprov"></div>
         <!--
