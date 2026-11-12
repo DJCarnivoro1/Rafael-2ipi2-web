@@ -19,22 +19,18 @@ if (!isset($_SESSION["usuario"])) {
     <body id="pag">
         <div id="fundo1"></div>
         <div id="fundo2"></div>
-        <div><img src="https://infernummod.wiki.gg/images/AresFullSwordOn.gif?709c2c" id="ares" height="700"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MraTLRGS-v4dMLgttGyjgIevcWtFZDIzxzC9EWtyHg&s=10" id="artemis" width="270" style="rotate: 90deg;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKwk9A_mbHd5_eCZeqBRSbUnvzyiVKdQ_ZmXgt2HI_A&s=10" id="apollo" width="270" style="rotate: 270deg;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgi2J_gbkztRGbOTKoEQIIivEL6als-fpHRk7CEzDO&s" id="thanatos" width="1500"></div>
+        <div><img src="https://infernummod.wiki.gg/images/AresFullSwordOn.gif?709c2c" id="ares" height="700"><img src="imagens/artemis.png" id="artemis" width="270" style="rotate: 90deg;"><img src="imagens/apollo.png" id="apollo" width="270" style="rotate: 270deg;"><img src="imagens/thanatos.png" id="thanatos" width="1500"></div>
         <div id="devo"><img src="https://static.wikia.nocookie.net/calamity-paint-retold/images/b/ba/Dog_neo2.png/revision/latest?cb=20190915221618"></div>
-        <div id="prov"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1lpwIGXeiLYMiu8Wm2hengwMNULPH4j72V1DeasiK4Q&s=10" height="650" id="imgprov"></div>
-        <!--
-        <div id="perfil">
-            <img src="https://static.wixstatic.com/media/830a10_1e0e58cbb3514c0e9cfe3a380f5e6497~mv2.png/v1/fill/w_168,h_231,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/830a10_1e0e58cbb3514c0e9cfe3a380f5e6497~mv2.png">
-            <h1 id="nome">Rafael Rangel Martins</h1>
-            <a href="sair.php">Sair do Sistema</a>
-        </div> -->
+        <div id="prov"><img src="imagens/provi1" height="650" id="imgprov"></div>
         <section id="s0">
         <h1 id="bv">Olá, bem-vindo de volta <?= htmlspecialchars($_SESSION["usuario"]) ?>!</h1>
         <h1 id="titulo">Terraria Calamity</h1>
         <p id="apr">
             O Calamity Mod é uma das maiores e mais populares modificações de conteúdo criadas por fãs para o jogo Terraria.<br>
             O mod pode ser instalado no PC através do gerenciador de mods oficial tModLoader.<br>
-            Abaixo você irá encontrar a história do mod, já no canto superior esquerdo, você encontrará o seu inventário onde estão invocadores(tocadores de musica) de três bosses escolhidos
+            Abaixo você irá encontrar a história do mod, já no canto superior esquerdo, você encontrará o seu inventário onde estão invocadores(tocadores de musica) de três bosses escolhidos.<br><br>
+            <a href="#s1">A Era Dracônica e a Traição</a><br><a href="#s2">A Queda e a Ascensão de Yharim</a><br><a href="#s3">Consequências da Guerra e Ruína</a><br><br>
+            Clique aqui para <a href="sair.php">sair do Sistema</a>.
         </p>
         
         </section>
@@ -73,7 +69,7 @@ if (!isset($_SESSION["usuario"])) {
         </section>
         <div id="inventory">
             <div class="item"><button onclick="prov('musicas/prov.mp3')"><img src="https://calamitymod.wiki.gg/images/Profaned_Core.png?54a1f8"></button></div>
-            <div class="item"><button onclick="devo('musicas/UNIVERSAL COLLAPSE _ .mp3')"><img src="https://calamitymod.wiki.gg/images/Cosmic_Worm.png?870b5e"></button></div>
+            <div class="item"><button onclick="devo('musicas/devo.mp3')"><img src="https://calamitymod.wiki.gg/images/Cosmic_Worm.png?870b5e"></button></div>
             <div class="item"><button onclick="echo('musicas/exo mechs.mp3')"><img src="https://terraria.wiki.gg/images/Ocram%27s_Razor.png?c7c23c"></button></div>
         </div>
     <audio id="minhaMusica" controls muted></audio>
